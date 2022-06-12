@@ -68,7 +68,7 @@ const Index = () => {
                   to={`/permissions/edit/${permission.id}`}
                   className="btn btn-primary btn-action"
                 >
-                  <FaIcons.FaEdit />
+                  <FaIcons.FaPen />
                 </Link>
               </td>
             </tr>
