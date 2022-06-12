@@ -25,7 +25,7 @@ const TitleBar = () => {
             </DropdownToggle>
             <DropdownMenu className="user-context-menu">
               <DropdownItem
-                href="https://github.com/reactstrap/reactstrap"
+                href="https://github.com/ricardoalonne"
                 target="_blank"
               >
                 GitHub

@@ -4,62 +4,68 @@ $muted: #a1a5b7;
 $blinkHover: #00378a;
 $blinkActive: #6c757d;
 
-.titlebar{
-    background-color: $light;
-    padding: 1rem 2rem;
-    border-bottom: 1px solid $gray;
-    width: 100%;
+.titlebar {
+  background-color: $light;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid $gray;
+  width: 100%;
 }
 
-.sidebar{
-    width: 14rem;
-    height: 100vh;
-    border-right: 1px solid $gray;
-    ul{
-        list-style: none;
-        padding: 1rem .5rem;
-        li{
-            margin-bottom: .5rem;
-            a{
-                text-decoration: none;
-                &.active{
-                    background-color: $gray;
-                }
-            }
-        }
-    }
-}
-
-.user-context-menu{
-    border-radius: 1rem!important;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-}
-
-.breadcrumb-item{
-    a{
+.sidebar {
+  width: 14rem;
+  height: 100vh;
+  border-right: 1px solid $gray;
+  ul {
+    list-style: none;
+    padding: 1rem 0.5rem;
+    li {
+      margin-bottom: 0.5rem;
+      a {
         text-decoration: none;
-        color: $muted;
-        font-weight: 600;
-        &:hover{
-            color: $blinkHover;
+        &.active {
+          background-color: $gray;
         }
+      }
     }
+  }
+}
+
+.user-context-menu {
+  border-radius: 1rem !important;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.breadcrumb-item {
+  a {
+    text-decoration: none;
+    color: $muted;
+    font-weight: 600;
+    &:hover {
+      color: $blinkHover;
+    }
+  }
 }
 
 .round {
-    border-radius: 1rem!important;
+  border-radius: 1rem !important;
 }
 
 .validation-message-error {
-    width: 100%;
-    margin-top: .25rem;
-    font-size: .875em;
-    color: #dc3545;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #dc3545;
 }
 
 .btn-action {
-    margin: 0.2rem;
-    padding-top: 7px!important;
-    padding-bottom: 7px!important;
-    border-radius: 100%!important;
+  margin: 0.2rem;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  border-radius: 100% !important;
+}
+
+hr {
+  .solid {
+    border-top: 3px solid #bbb;
+  }
 }
