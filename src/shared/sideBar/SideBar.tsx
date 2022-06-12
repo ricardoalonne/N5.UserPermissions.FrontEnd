@@ -22,7 +22,7 @@ const SideBar = () => {
         <hr className="solid"/>
         <li>
           <a href={swaggerUrl} target="_blank" className="text-dark round py-3 w-100 d-inline-block px-4" rel="noreferrer">
-            <FaIcons.FaLink className="me-2" />
+            <FaIcons.FaPlug className="me-2" />
             Api Service
           </a>
         </li>
