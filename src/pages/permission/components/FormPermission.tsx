@@ -38,7 +38,7 @@ const FormPermission = (props: formPermissionProps) => {
       }))
     : [];
 
-  return (
+  return optionsTypes.length ? (
     <Formik
       initialValues={props.model}
       onSubmit={props.onSubmit}
@@ -105,6 +105,10 @@ const FormPermission = (props: formPermissionProps) => {
         </Form>
       )}
     </Formik>
+  ) : (
+    <p className="text-danger mt-2">
+      Es necesario agregar previamente Tipos de Permisos.
+    </p>
   );
 };
 
